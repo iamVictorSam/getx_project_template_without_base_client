@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       splitScreenMode: false,
       builder: (context, child) {
         return GetMaterialApp(
-          // this where the light mode colors are defined in
           debugShowCheckedModeBanner: false,
           title: 'Project Template',
           home: child,
